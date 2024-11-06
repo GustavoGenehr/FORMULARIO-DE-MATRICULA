@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
   --font-famiy: 'Poppins', sans-serif;
   --text: 400 1rem/1.5 var(--font-famiy);
@@ -11,4 +16,7 @@
   --stroke-defaut: #d6d3d1;
   --stroke-highlight: #f3541c;
   --semantic-error: #dc2626;
+}
+body {
+  overflow: hidden;
 }
