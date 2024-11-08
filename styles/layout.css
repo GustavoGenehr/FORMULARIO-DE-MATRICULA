@@ -7,6 +7,7 @@
 main {
   overflow: auto;
   padding: 4rem;
+
   & .main-container {
 max-width: 33rem;
 margin-left: auto;
@@ -17,8 +18,8 @@ margin-left: auto;
     margin-bottom: 1.5rem;
   }
   & h1 {
-    font: 600 1.5rem/1.25 var(--font-family);
-    margin-bottom: .5rem;
+    font:700 1.5rem/1.25 var(--font-family);
+    margin-bottom: 0.5rem;
   }
 }
 }
