@@ -19,7 +19,6 @@
           <img src="assets/icons/arrow-left-02.svg" alt="flexa para esquerda">
           <span>Voltar</span>
         </div>
-
         <h1>Formulário de matrícula</h1>
         <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
         <form method="post" enctype="multipart/form-data">
@@ -68,6 +67,39 @@
             </p>
           </div>
           </div>
+          </fieldset>
+          <fieldset class="address">
+            <legend>Endereço residencial</legend>
+
+            <div class="input-wrapper">
+              <label for="cep">CEP</label>
+              <input type="text" id="cep" name="cep">
+            </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="street">Rua</label>
+                <input type="text" id="street" name="street" value="Ruas das flores" disabled>
+              </div>
+            </div>
+
+              <div class="input-wrapper flex-1">
+                <label for="number">Numero</label>
+                <input type="number" id="number" name="number">
+              </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="city">Cidade </label>
+                <input type="text" id="city" name="city" value="São Paulo" disabled >
+              </div>
+
+              <div class="flex">
+                <div class="input-wrapper flex-1">
+                  <label for="state">Estado</label>
+                  <input type="text" id="state" name="state" disabled>
+                </div>
+
           </fieldset>
         </form>
       </div>

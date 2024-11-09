@@ -1,4 +1,5 @@
 @import url(droparea.css);
+
 input, textarea, select{
   appearance: none;
   width: 100%;
@@ -26,20 +27,33 @@ input[type="date"]:focus-within {
 input[type="date"] {
   &::-webkit-calendar-picker-indicator {
   opacity: 0;
-    /*display: none;*/
   }
   &::before{
+    content: "";
     position: absolute;
     background: url(../../assets/icons/calendar-03.svg)
     Center/contain;
     right: 1rem;
     width: 1.25rem;
     height: 1.25rem;
-    top: 25%;
+    top: 50%;
     transform: translateY(-50%);
   }
 }
 select {
   background: url(../../assets/icons/arrow-down-01.svg)
   no-repeat calc(100% - 1rem);
+}
+.address.flex {
+gap: 1.25rem;
+}
+.input-wrapper:has([disabled]) {
+  opacity: .5;
+}
+input {
+  & [disabled] {
+    background-color: var(--surface-disabled);
+    border: 1px solid var(--stroke-defaut);
+    color: var(--text-primary);
+  }
 }

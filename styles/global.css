@@ -5,8 +5,10 @@
 }
 :root {
   --font-famiy: 'Poppins', sans-serif;
-  --text: 400 1rem/1.5 var(--font-famiy);
-  --text-sm: 400 0.875rem/1.4 var(--font-family);
+  --text: 400 1rem/1.5 var
+  (--font-famiy);
+  --text-sm: 400 0.875rem/1.4 var
+  (--font-family);
   --text-primary: #292524;
   --text-secundary: #57534e;
   --text-tertiary: #8f8881;
@@ -16,8 +18,7 @@
   --stroke-defaut: #d6d3d1;
   --stroke-hightlight: #f3541c;
   --semantic-error: #dc2626;
-
-  
+  --surface-disabled: #E7E5E4;
 }
 body {
   overflow: hidden;
@@ -31,4 +32,13 @@ h1, h2 {
 img {
   max-width: 100%;
   height: auto;
+}
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1
+}
+.flex-2 {
+  flex: 2
 }
